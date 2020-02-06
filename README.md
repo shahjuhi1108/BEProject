@@ -1,2 +1,3 @@
 # Final Year Project Reports
-## 
+## Prevention of XSS attack by changing cookie name.
+##### Cross-Site Scripting attacks are those attacks against web applications in which an attacker gets control of the users browser in order to execute a malicious script (usually an HTML/JavaScript4 code) within the context of trust of the web applications site. As a result, and if the embedded code is successfully executed, the attacker might then be able to access, passively or actively, to any sensitive browser resource associated to the web application (e.g., cookies, session IDs, etc.). The solution on this has been demonstrated in this project, where actual cookie name is renamed before sending it to the other end and changing it back to the original one while replying back. In this way the attacked based on cookie name can be prevented.
